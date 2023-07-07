@@ -1,0 +1,10 @@
+header {
+    background-color: rgb(151, 42, 64);
+    margin: 0%;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50%;
+}
