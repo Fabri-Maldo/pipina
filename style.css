@@ -10,11 +10,6 @@ body {
 	height: 100%;
 }
 
-header {
-    display: flex;
-    justify-content: end;
-}
-
 /*
 .pipina {
     width: 100%;
@@ -30,11 +25,12 @@ header {
 
 #nav {
     display: flex;
+    justify-content: end;
     color: rgb(180, 188, 194);
-    background-color: #1a030540;
+    background-color: #5c0b1240;
 }
 .nav_ul {
-    width: 100%;
+    width: 70%;
     display: flex;
 }
 
