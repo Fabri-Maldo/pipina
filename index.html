@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalizar.css">
     <title>Document</title>
 </head>
 <body>
     <header>
+        <!--?<img class="pipina" src="./imagenes/pipina.jpg">-->
         <nav id="nav">
-            <p>Sobre nosotros</p>
-            <p>Requisitos</p>
-            <p>Preguntas frecuentes</p>
-            <p>Solicitar prestamo</p>
+            <ul class="nav_ul">
+                <li class="ul_li"><a class="ul_a" href="#nosotros">Nosotros</a></li>
+                <li class="ul_li"><a class="ul_a" href="#requisitos">Requisitos</a></li>
+                <li class="ul_li"><a class="ul_a" href="#nosotros">Lineas de crédito</a></li>
+                <li class="ul_li"><a class="ul_a" href="pregFreq.html" target="_blank">Preguntas frecuentes</a></li>
+                <li class="ul_li"><a class="ul_a" href="solPres.html" target="_blank">Solicitar préstamo</a></li>
+            </ul>    
         </nav>
     </header>
     <main>
-        <h1>Pipina prestamos personales</h1>
-    </main>
+        <h1 id="titulo">
+            
+            <p class="textTitulo1">Pipina</p> 
+            <p class="textTitulo2">préstamos</p> 
+            <p class="textTitulo3">personales</p>
+        </h1>
+        <!--?-->
+        <div class="separador sep1">
+            <h2 id="nosotros">Sobre nosotros</h2>
+            <div class="imgNos">
+                <p class="texto"> Somos comercializadores que trabajan con diferentes financieras las cuales otorgan prestamos personales. Tenemos opciones de firma presencial o digital dependiendo de cada caso. Trabajamos hace mas de 20 años y para nosotros la confianza con nuestro cliente es primordial.</p>
+                <img class="imgfondo" src="./imagenes/logo_fondo_f-1.png">
+            </div>
+        </div>
+        <div class="separador sep2">
+                <h2 id="requisitos">Requisitos</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ratione voluptatum quibusdam earum cupiditate quos explicabo. Magnam fuga libero, nam repellendus, voluptas culpa, dolores odio fugiat tempore aliquam incidunt exercitationem.</p>
+        </div>
+        </main>
     <footer>
-
+        <a href="https://www.instagram.com/pipina_prestamos_personales/?next=%2F" target="_blank"><img class="imgLogos" src="./imagenes/logoIg.webp"  alt="hola"/></a>
+        <img class="imgLogos" src="https://i1.wp.com/www.dpabogados.com/wp-content/uploads/2016/09/facebook-logo-png-transparent-background.png?fit=1600%2C1600&ssl=1"/>
     </footer>
 </body>
+<script src="./script.js"></script>
 </html>
